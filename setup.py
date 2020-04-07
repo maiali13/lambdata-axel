@@ -8,7 +8,7 @@ setup(
     version="1.0",
     author="Axel Corro",
     author_email="axacorro@gmail.com",
-    description="A short description",
+    description="Some data science tools",
     long_description=long_description,
     long_description_content_type="text/markdown", # required if using a md file for long desc
     #license="MIT",
