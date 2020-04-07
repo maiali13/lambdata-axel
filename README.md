@@ -11,17 +11,17 @@ pip install -i https://test.pypi.org/simple/ lambdata-axel
 import
 
 ```python
-from lambdata_axel.ds_tools import check_nulls_df, train_val_test_split
+from lambdata_axel.ds_tools import DSDataFrameTools
 ```
 
 check for nulls in a dataframe
 
 ```python
-check_nulls_df(df)
+DSDataFrameTools(df).check_nulls_df()
 ```
 
 create a train, validate, and test set from a dataframe
 
 ```python
-train, val, test = train_val_test_split(df,24)
+train, val, test = DSDataFrameTools(df).train_val_test_split(random_state=24)
 ```
