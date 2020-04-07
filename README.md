@@ -2,7 +2,17 @@
 
 ## installation
 
+```python
+pip install -i https://test.pypi.org/simple/ lambdata-axel
+```
+
 ## usage
+
+import
+
+```python
+from lambdata_axel.ds_tools import check_nulls_df, train_val_test_split
+```
 
 check for nulls in a dataframe
 
